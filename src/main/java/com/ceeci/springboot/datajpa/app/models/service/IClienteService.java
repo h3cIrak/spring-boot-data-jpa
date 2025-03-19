@@ -9,7 +9,7 @@ import com.ceeci.springboot.datajpa.app.models.entity.Cliente;
 
 public interface IClienteService {
 	
-public List<Cliente> findAll();
+    public List<Cliente> findAll();
 	
 	public Page<Cliente> findAll(Pageable pageable);
 
